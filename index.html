@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To Do Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="app.js" href="app.js">
 </head>
 <body>
+<section class="todo">
+    <h1>To Do List</h1>
+<div class="input">
+    <input 
+    type="text" 
+    class="input-field" 
+    id="todoInput" 
+    placeholder="Add a new task"
+    />
     
+    <button class="btn">add a new task</button>
+    
+</div>
+
+<ul class="scroll">
+    <li id="todoList"> </li>
+</ul>
+<div>
+    <hr class="counter">
+    <div class="counter-container">
+        <p><span> 0</span> items total </p>
+        <button id="deletebutton">
+            remove task
+        </button>
+    </div>
+</div>
+
+<div class="edit-section">
+    <button class="edit" id="edit"> edit task</button>
+
+</div>
+
+</section>
+<footer>
+<div class="footer">
+    <p class="made-by"> Made by Kim Ordel</p>
+</div>
+</footer>
 </body>
 </html>

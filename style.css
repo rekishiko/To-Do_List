@@ -1,6 +1,41 @@
-body {
-    background-color: white;
-}
+
+
 h1 {
-    color: blue;
+    color: rgb(1, 1, 15);
+    text-align: center;
 }
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 3rem;
+    box-shadow: 0 1rem 3rem 1rem rgba(0, 0, 0, 0.1);
+    background: rgb(169, 185, 255);
+    width: 80%;
+    max-width: 90%;
+
+
+}
+.input{
+    position: relative;
+    display: flex
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    position: absolute;
+}
+
+.input-field {
+    flex-grow: 1;
+
+}
+
+
+    
